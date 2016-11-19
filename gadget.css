@@ -1,8 +1,8 @@
 body {
 	position: absolute;
 	font-family; 'PT sans', Arial;
-	width: 100px;
-	height: 264px;
+	width: 102px;
+	height: 510px;
 	margin: 0;
 	padding: 0;
 	right: 0;
@@ -33,36 +33,37 @@ div a:link {
      display: block;
      text-align: center;
      height: 32px;
-     color: #666; 
-     font-size: 0.8em;
-     background: url(path4148.png) no-repeat;
-     background-size: 15px;
-     background-position: 10px;
+     color: #000; 
+     font-size: 1em;
      -ms-transition: all .3s ease-in-out;
      -webkit-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      -moz-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
      line-height: 32px;
-     text-indent: 20px;
 }
  .ko-ko a:hover {
 		border-radius: 10px;
      	-webkit-border-radius: 10px;
-     	background: url(path4151.png) no-repeat;
      	background-color: red;
-     	background-position: 10px;
-     	background-size: 18px;	
+     	color: white;
 }
-
+.ko-ko:nth-of-type(4) {
+	font-size: 0.8em;
+}
+.ko-ko:nth-of-type(9), .ko-ko:nth-of-type(11), .ko-ko:nth-of-type(12) {
+	font-size: 0.7em;
+	line-height: 16px;
+}
+/*
 
  
  .ko-ko2 a {
-     line-height: 64px;
+     line-height: 32px;
      display: block;
      text-align: center;
      height: 100%;
-     color: #666;
+     color: #000;
      -ms-transition: all .3s ease-in-out;
      -webkit-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
@@ -80,11 +81,11 @@ div a:link {
 
 
  .ko-ko3 a {
-     line-height: 64px;
+     line-height: 32px;
      display: block;
      text-align: center;
      height: 100%;
-     color: #666; 
+     color: #000; 
      -ms-transition: all .3s ease-in-out;
      -webkit-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
@@ -100,11 +101,11 @@ div a:link {
  
  
  .ko-ko4 a {
-     line-height: 64px;
+     line-height: 32px;
      display: block;
      text-align: center;
      height: 100%;
-     color: #666;
+     color: #000;
      -ms-transition: all .3s ease-in-out;
      -webkit-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
@@ -116,5 +117,5 @@ div a:link {
 	background-color: red;
 	color: white;
 }
-
+*/
     

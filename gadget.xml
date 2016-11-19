@@ -4,14 +4,14 @@
 	<version>0.1</version>
 	<author name="Станислав">
 <!-- Если вы желаете отобразить логотип рядом с именем автора, то добавьте элемент logo -->
-<logo  src="settings.png" />
+<logo  src="path4148.png" />
 <info url="www.alfabank.ru" />
 </author>
- <copyright>Copyright &#169; 2011</copyright>
+ <copyright>Copyright &#169; 2017</copyright>
  <description>Гаджет уааасссяяяяя</description>
 <!-- Иконка гаджета, которая отображается в меню окна "гаджеты" -->
  <icons>
- <icon width="132" height="128" src="settings.png" />
+ <icon width="128" height="128" src="path4148.png" />
  </icons>
 <hosts>
 <host name="sidebar">
