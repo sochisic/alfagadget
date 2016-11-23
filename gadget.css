@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	right: 0;
+	background-color: gray;
 }
 div {
 	width: 100px;
@@ -47,6 +48,7 @@ div a:link {
      	-webkit-border-radius: 10px;
      	background-color: red;
      	color: white;
+     	box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 .ko-ko:nth-of-type(4) {
 	font-size: 0.8em;
@@ -54,6 +56,19 @@ div a:link {
 .ko-ko:nth-of-type(9), .ko-ko:nth-of-type(11), .ko-ko:nth-of-type(12) {
 	font-size: 0.7em;
 	line-height: 16px;
+}
+.ko-ko1:hover:after {
+	content: attr(data-title);
+	position: absolute; /* Абсолютное позиционирование */
+    right: 100%; top: 40%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+   	width: 60px;
+   	text-align: center;
 }
 /*
 
