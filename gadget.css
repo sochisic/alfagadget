@@ -1,135 +1,73 @@
 body {
-	position: absolute;
-	font-family; 'PT sans', Arial;
-	width: 102px;
-	height: 510px;
+	box-sizing: border-box;
+	display: block;
+	font-family: 'PT sans', Arial;
+	height: 496px;
 	margin: 0;
 	padding: 0;
+	position: absolute;
 	right: 0;
-	background-color: gray;
-	box-sizing: border-box;
+	top: 0;
+	width: 102px;
 }
-div {
+
+div .item {
 	box-sizing: border-box;
-	width: 100px;
-	height: 32px;
-	background-position: center;
-	border: 1px solid red;
-	background-color: #fff;
-	position: relative;
 	font-weight: 600;
-	/* opacity: 0.4;
-	transition: opacity .3s ease-in-out;
-	border-radius: 10px; */
+	height: 32px;
+	position: relative;
+	width: auto;
+	border-left: 1px solid #f18973;
+	border-bottom: 1px solid #f18973;
+	border-right: 1px solid #f18973;
 }
+
+div .item3 {
+	border-top: 1px solid #f18973;
+}
+
 div a:link {
 	text-decoration: none;
 }
 
-
-
- .ko-ko a {
-     border: none;
+.item a {
+     color: #000;
      display: block;
-     text-align: center;
+     font-size: 0.8em;
      height: 32px;
-     color: #000; 
-     font-size: 1em;
-     -ms-transition: all .3s ease-in-out;
-     -webkit-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     transition: all .3s ease-in-out;
      line-height: 32px;
-}
-.ko-ko a:hover {
-	border-left: 10px solid red;
-}
-.ko-ko5 {
-	background: white url(image3344.png) no-repeat center;
-}
-.ko-ko4 {
-	background: white url(image3354.png) no-repeat center;	
-}
-.ko-ko6 {
-	background: white url(2gis.png) no-repeat center;
-}
-.ko-ko7 {
-	background: white url(image4184.png) no-repeat center;
-}
-.ko-ko:nth-of-type(4) {
-	font-size: 0.8em;
-}
-.ko-ko:nth-of-type(9), .ko-ko:nth-of-type(11), .ko-ko:nth-of-type(12) {
-	font-size: 0.7em;
-	line-height: 16px;
-}
-
-
-
-
-
-/*
-
- 
- .ko-ko2 a {
-     line-height: 32px;
-     display: block;
      text-align: center;
-     height: 100%;
-     color: #000;
-     -ms-transition: all .3s ease-in-out;
-     -webkit-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     transition: all .3s ease-in-out;
-     
-}
- .ko-ko2 a:hover {
- 	border-radius: 10px;
-	background-color: red;
-	color: white;
+		 padding: 0;
 }
 
-
-
-
- .ko-ko3 a {
-     line-height: 32px;
-     display: block;
-     text-align: center;
-     height: 100%;
-     color: #000; 
-     -ms-transition: all .3s ease-in-out;
-     -webkit-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     transition: all .3s ease-in-out;
-}
- .ko-ko3 a:hover {
- 	border-radius: 10px;
-	background-color: red;
-	color: white;
+.itemWithoutImage {
+	background: url('images/buttback1.png') no-repeat center;
 }
 
- 
- 
- .ko-ko4 a {
-     line-height: 32px;
-     display: block;
-     text-align: center;
-     height: 100%;
-     color: #000;
-     -ms-transition: all .3s ease-in-out;
-     -webkit-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     transition: all .3s ease-in-out;
+.itemWithoutImage:hover {
+	border-left: 5px solid red;
+	background: url('images/buttback.png') no-repeat center;
 }
- .ko-ko4 a:hover {
- 	border-radius: 10px;
-	background-color: red;
-	color: white;
+
+.itemImage a:hover {
+	border-left: 5px solid red;
 }
-*/
-    
+
+.item3 {
+	background: url('images/SAP-Logo1.png') no-repeat center;
+}
+
+.item4 {
+	background: url('images/image3354.png') no-repeat center;
+}
+
+.item5 {
+	background: url('images/image3344.png') no-repeat center;
+}
+.item6 {
+	background: url('images/2gis.png') no-repeat center;
+}
+
+.item7 {
+	background: url('images/image4184.png') no-repeat center;
+}
